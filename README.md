@@ -19,7 +19,6 @@ This project implements two structural design patterns: Singleton and Adapter.
 
 #### 🚀 **How to Run**
 Run `ConfigManagerDemo.java`:
-```sh
 Max Players: 100
 
 All Configurations:
