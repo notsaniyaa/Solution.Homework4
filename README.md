@@ -17,12 +17,7 @@ This project implements two structural design patterns: Singleton and Adapter.
 
 #### **How to Run**
 Run `ConfigManagerDemo.java`:
-Max Players: 100
 
-All Configurations:
-maxPlayers → 100
-defaultLanguage → en
-gameDifficulty → medium
 
 ![image](https://github.com/user-attachments/assets/ca52c64f-e992-441a-ba89-14433a27bbfd)
 
@@ -44,7 +39,8 @@ ChatServiceAdapter: Bridges the gap between old and new.
 
 Run ChatAdapterDemo.java:
 
-`Legacy Chat: Hello world!`
+![image](https://github.com/user-attachments/assets/6bc7698b-4eed-4f3c-bca5-417ae48192c1)
+
 
 
 **Key Takeaways**
