@@ -24,6 +24,9 @@ maxPlayers → 100
 defaultLanguage → en
 gameDifficulty → medium
 
+![image](https://github.com/user-attachments/assets/ca52c64f-e992-441a-ba89-14433a27bbfd)
+
+
 Adapter: Chat Service Integration
 
 Intent: Adapt a legacy chat system to a new expected interface.
@@ -31,16 +34,23 @@ Intent: Adapt a legacy chat system to a new expected interface.
 **Features:**
 
 LegacyChatService: The old chat system with sendLegacyMessage().
+
 ChatService: The new interface with sendMessage().
+
 ChatServiceAdapter: Bridges the gap between old and new.
+
 
 #### **How to Run**
 
 Run ChatAdapterDemo.java:
-`` Legacy Chat: Hello world!
+
+`Legacy Chat: Hello world!`
+
 
 **Key Takeaways**
 
 The Singleton pattern ensures only one instance of a class exists.
+
 The Adapter pattern helps integrate incompatible interfaces.
+
 The project follows SOLID principles (Single Responsibility & Dependency Inversion).
