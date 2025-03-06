@@ -1,8 +1,10 @@
 # Advanced Structural Patterns: Singleton & Adapter
 
 This project implements two structural design patterns: Singleton and Adapter.  
-- **Singleton**: A global configuration manager that ensures a single instance.  
-- **Adapter**: A wrapper for a legacy chat service to match a new interface.  
+
+**Singleton**: A global configuration manager that ensures a single instance. 
+
+**Adapter**: A wrapper for a legacy chat service to match a new interface.  
 
 
 ## **Implementation Details**
@@ -12,9 +14,11 @@ This project implements two structural design patterns: Singleton and Adapter.
 **Intent:** Ensure only one instance of the configuration manager exists.  
 
 #### **Features:**
-- **Lazy initialization**: The instance is created only when first needed.  
-- **Stores configurations** as key-value pairs.  
-- **Methods**: `getConfig(String key)`, `printAllConfigs()`.  
+**Lazy initialization**: The instance is created only when first needed.  
+
+**Stores configurations** as key-value pairs.  
+
+**Methods**: getConfig(String key), printAllConfigs().  
 
 #### **How to Run**
 Run `ConfigManagerDemo.java`:
@@ -25,15 +29,15 @@ Run `ConfigManagerDemo.java`:
 
 ### **Adapter: Chat Service Integration**
 
-Intent: Adapt a legacy chat system to a new expected interface.
+**Intent:** Adapt a legacy chat system to a new expected interface.
 
 #### **Features:**
 
-LegacyChatService: The old chat system with sendLegacyMessage().
+**LegacyChatService:** The old chat system with sendLegacyMessage().
 
-ChatService: The new interface with sendMessage().
+**ChatService:** The new interface with sendMessage().
 
-ChatServiceAdapter: Bridges the gap between old and new.
+**ChatServiceAdapter:** Bridges the gap between old and new.
 
 
 #### **How to Run**
