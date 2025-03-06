@@ -7,7 +7,8 @@ This project implements two structural design patterns: Singleton and Adapter.
 
 ## **Implementation Details**
 
-### ** Singleton: Global Configuration Manager**
+### **Singleton: Global Configuration Manager**
+
 **Intent:** Ensure only one instance of the configuration manager exists.  
 
 #### **Features:**
@@ -22,11 +23,11 @@ Run `ConfigManagerDemo.java`:
 ![image](https://github.com/user-attachments/assets/ca52c64f-e992-441a-ba89-14433a27bbfd)
 
 
-Adapter: Chat Service Integration
+### **Adapter: Chat Service Integration**
 
 Intent: Adapt a legacy chat system to a new expected interface.
 
-**Features:**
+#### **Features:**
 
 LegacyChatService: The old chat system with sendLegacyMessage().
 
