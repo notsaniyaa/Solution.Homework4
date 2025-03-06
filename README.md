@@ -28,7 +28,7 @@ Adapter: Chat Service Integration
 
 Intent: Adapt a legacy chat system to a new expected interface.
 
-Features:
+**Features:**
 
 LegacyChatService: The old chat system with sendLegacyMessage().
 ChatService: The new interface with sendMessage().
@@ -37,7 +37,7 @@ ChatServiceAdapter: Bridges the gap between old and new.
 #### **How to Run**
 
 Run ChatAdapterDemo.java:
-``Legacy Chat: Hello world!
+`` Legacy Chat: Hello world!
 
 **Key Takeaways**
 
