@@ -5,8 +5,6 @@ This project implements two structural design patterns: Singleton and Adapter.
 - **Adapter**: A wrapper for a legacy chat service to match a new interface.  
 
 
----
-
 ## **Implementation Details**
 
 ### ** Singleton: Global Configuration Manager**
