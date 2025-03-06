@@ -21,7 +21,7 @@ This project implements two structural design patterns: Singleton and Adapter.
 **Methods**: getConfig(String key), printAllConfigs().  
 
 #### **How to Run**
-Run `ConfigManagerDemo.java`:
+Run ConfigManagerDemo.java:
 
 
 ![image](https://github.com/user-attachments/assets/ca52c64f-e992-441a-ba89-14433a27bbfd)
